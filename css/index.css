@@ -1,0 +1,35 @@
+/* CONTENEDOR DEL FORMULARIO */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Ocupación de la pantalla */
+}
+
+/* TARJETA DEL LOGIN */
+.tarjeta{
+    background-color: #F0F4F3;
+    padding: 40px;
+    width: 250px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* SUBTÍTULO */
+.tituloIniciarSesion{
+    color: #0F766E;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+/* CAMPOS DEL FORMULARIO */
+.campo{
+    margin-bottom: 20px;
+}
+
+/* ENLACE DE REGISTRO */
+.registrarse{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}

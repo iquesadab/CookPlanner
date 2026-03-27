@@ -1,0 +1,61 @@
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
+/* HEADER PRINCIPAL */
+.contenedorHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* LOGO */
+.logo{
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* INPUTS GENERALES */
+.campo input{
+    width: 100%; /* Define el ancho */
+    padding: 10px; /* Espacio interno del input */
+    border: none;
+    outline: none;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%; 
+    font-weight: bold; /* Texto en negrita */
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
+/* ENLACES GENERALES */
+a{
+    text-decoration: none; /* Me quita lo subrayado */
+    color: #0F766E;
+}

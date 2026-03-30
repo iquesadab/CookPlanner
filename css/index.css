@@ -1,3 +1,12 @@
+/* HEADER PRINCIPAL */
+.contenedorHeaderIndex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
 /* CONTENEDOR DEL FORMULARIO */
 .contenedor{
     display: flex;

@@ -1,0 +1,156 @@
+/* CONTENEDOR AL LADO IZQUIERO */
+.contenedorIzquierdo{
+    display: flex; /* Acomoda elementos en fila */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* CONTENEDOR AL LADO DERECHO */
+.contenedorDerecho{
+    display: flex; /* Acomoda elementos en fila */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre elementos */
+}
+
+/* CONTENEDOR DE TODA LA PAGINA */
+.contenedorPrincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px;
+}
+
+/* CONTENEDOR DE OPCIONES */
+.contenedorOpciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 220px;
+    min-height: 300px;
+    background-color: #F0F4F3;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+/* BOTON DE OPCIONES */
+.contenedorOpciones button{
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    color: #2E2E2E;
+    border: 1px solid #bdbdbd;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+.contenedorOpciones button:hover{
+    background-color: #DDEBE8;
+}
+
+/* CONTENEDOR BUSQUEDA */
+.contenedorBusqueda{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    width: 80%;
+    gap: 20px;
+}
+
+/* BARRA DE BUSQUEDA */
+.barraBusqueda{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+    gap: 100px;
+}
+
+/* INPUT DE BUSQUEDA */
+.barraBusqueda input{
+    flex: 1; /* hace que el input se estire y ocupe el espacio libre */
+    padding: 12px; /* Espacio dentro, lo que van a ingresar en el input */
+    border: 1px solid #bdbdbd;
+    font-size: 16px;
+}
+
+/* BOTON BUSCAR */
+.barraBusqueda button{
+    background-color: #0F766E;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    max-width: 200px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+.barraBusqueda button:hover{
+    background-color: #115E59;
+}
+
+/* LINEA SEPARADORA*/
+.lineaSeparadora{
+    width: 100%;
+    height: 1px;
+    background-color: #bddbdb;
+}
+
+/* CONTENEDOR DE TODAS LAS TARJETAS */
+.contenedorTarjetas{
+    display: flex;
+    flex-wrap: wrap; /* Cuando ya no caben, baja las siguientes a otra fila */
+    gap: 25px; /* Deja espacio entre tarjetas */
+    width: 100%; /* Hace que use bien el espacio debajo de la línea */
+}
+
+/* TARJETA DE RECETA */
+.tarjetaReceta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F4F3;
+    padding: 20px;
+    width: 220px;
+    gap: 15px;
+    text-align: center;
+}
+
+/* IMAGEN DE LA TARJETA */
+.tarjetaReceta img{
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* TITULO DE LA RECETA */
+.tarjetaReceta h2{
+    margin: 0;
+    font-size: 22px;
+    color: #2E2E2E;
+}
+
+/* BOTON DE LA TARJETA */
+.tarjetaReceta button{
+    background-color: #0F766E;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+.tarjetaReceta button:hover{
+    background-color: #115E59;
+}

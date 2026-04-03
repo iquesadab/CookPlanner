@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/crearReceta.css">
+
+    <title>Crear Receta</title>
+</head>
+<body>
+    <header class="contenedorHeader">
+        <h1 class="tituloPrincipal">Crear Receta</h1>
+    </header>
+    
+    <section class="contenedorCrearReceta">
+
+        <input type="text" class="inputNombreReceta" placeholder="Nombre de la Receta">
+
+        <div class="lineaSeparadora"></div>
+
+        <h2 class="subtituloSeccion">Ingredientes</h2>
+        <input type="text" class="inputIngredientes" placeholder="+ Añadir Ingrediente">
+
+        <div class="lineaSeparadora"></div>
+
+        <h2 class="subtituloSeccion">Instrucciones</h2>
+        <input class="inputInstrucciones"></input>
+
+        <div class="lineaSeparadora"></div>
+
+        <div class="filaInferior">
+            <div class="bloqueCampo">
+                <label class="labelCampo" for="categoria">Categoria</label>
+                <div class="campoLinea">
+                    <select id="categoria" class="selectCampo">
+                        <option value=""></option>
+                        <option>Desayuno</option>
+                        <option>Almuerzo</option>
+                        <option>Cena</option>
+                        <option>Postre</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="bloqueCampo">
+                <label class="labelCampo" for="presupuesto">Presupuesto por Porción</label>
+                <div class="campoLinea">
+                    <input type="text" id="presupuesto" class="inputPresupuesto">
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="botonSubirImagen">Subir Imagen</button>
+        
+        <div class="filaBotonGuardar">
+            <button type="button" class="botonGuardarReceta">Guardar Receta</button>
+        </div>
+    
+    </section> 
+</body>
+</html>

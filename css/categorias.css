@@ -1,0 +1,124 @@
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
+/* CONTENEDOR HEADER */
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+}
+
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* CONTENEDOR GENERAL */
+.contenedorCategorias{
+    padding: 30px 50px;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenidoCategorias{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* LISTA DE CATEGORÍAS */
+.listaCategorias{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+/* FILA DE CADA CATEGORÍA */
+.filaCategoria{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* NOMBRE DE LA CATEGORÍA */
+.nombreCategoria{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2E2E2E;
+}
+
+/* CONTENEDOR DE BOTONES */
+.accionesCategoria{
+    display: flex;
+    gap: 10px;
+}
+
+/* BOTONES EDITAR Y ELIMINAR */
+.botonAccion{
+    background-color: #0F766E;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* CONTENEDOR DEL BOTÓN NUEVA CATEGORÍA */
+.contenedorNuevaCategoria{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+/* BOTÓN NUEVA CATEGORÍA */
+.botonNuevaCategoria{
+    background-color: #0F766E;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
+/* LÍNEA SEPARADORA ENTRE CATEGORÍAS */
+.lineaSeparadora{
+    width: 100%;
+    height: 1px;
+    background-color: #bddbdb;
+    margin: 10px 0;
+}
+
+/* LÍNEA FINAL */
+.lineaFinal{
+    width: 100%;
+    height: 1px;
+    background-color: #bddbdb;
+    margin-top: 20px;
+}

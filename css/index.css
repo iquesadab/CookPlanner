@@ -1,3 +1,10 @@
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
 /* HEADER PRINCIPAL */
 .contenedorHeaderIndex{
     display: flex;
@@ -8,12 +15,26 @@
     padding-bottom: 30px;
 }
 
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* LOGO */
+.logo{
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
 /* CONTENEDOR DEL FORMULARIO */
 .contenedor{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh; /* Ocupación de la pantalla */
+    height: 50vh;
 }
 
 /* TARJETA DEL LOGIN */
@@ -35,6 +56,38 @@
 /* CAMPOS DEL FORMULARIO */
 .campo{
     margin-bottom: 20px;
+}
+
+/* INPUTS DENTRO DE CAMPO */
+.campo input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
+/* ENLACES GENERALES */
+a{
+    text-decoration: none;
+    color: #0F766E;
 }
 
 /* ENLACE DE REGISTRO */

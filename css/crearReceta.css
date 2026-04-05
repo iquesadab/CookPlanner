@@ -1,3 +1,44 @@
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
+/* CONTENEDOR HEADER */
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+}
+
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
 /* CONTENEDOR GENERAL */
 .contenedorCrearReceta{
     display: flex;
@@ -63,7 +104,7 @@
 
 /* LABELS */
 .labelCampo{
-    display: block; /* Hace que se comporte como bloque y quede arriba */
+    display: block;
     font-size: 16px;
     font-weight: bold;
     color: #0F766E;
@@ -107,6 +148,7 @@
     cursor: pointer;
 }
 
+/* FILA DEL BOTON GUARDAR */
 .filaBotonGuardar{
     display: flex;
     flex-direction: column;

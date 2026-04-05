@@ -1,8 +1,56 @@
-/* CONTENEDOR DEL LOGO Y NOMBRE*/
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
+/* CONTENEDOR HEADER */
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+}
+
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* LOGO */
+.logo{
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
+/* CONTENEDOR DEL LOGO Y NOMBRE */
 .contenedorLogoNombre{
-    display: flex; /* Acomoda elementos en fila */
-    align-items: center; /* Centra verticalmente */
-    gap: 10px; /* Espacio entre elementos */
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* NOMBRE DE LA RECETA */
@@ -15,7 +63,7 @@
     padding-bottom: 30px;
 }
 
-/* CONTENEDOR DE LA PARTE SUPERIOR DE LA PAGINA*/
+/* CONTENEDOR DE LA PARTE SUPERIOR DE LA PAGINA */
 .contenedorGeneral{
     display: flex;
     flex-direction: row;
@@ -24,7 +72,7 @@
     padding: 30px;
 }
 
-/* CONTENEDOR DE LADO IZQ DEL CONTENEDOR GENERAL*/
+/* CONTENEDOR DE LADO IZQUIERDO DEL CONTENEDOR GENERAL */
 .contenedorIzquierda{
     display: flex;
     flex-direction: column;
@@ -32,15 +80,15 @@
     gap: 10px;
 }
 
-/* CONTENEDOR DE LADO DERECHO DEL CONTENEDOR GENERAL*/
+/* CONTENEDOR DE LADO DERECHO DEL CONTENEDOR GENERAL */
 .contenedorDerecha{
     display: flex;
-    flex-direction: column; /* Así acomoda filaSuperior arriba y línea abajo */
+    flex-direction: column;
     width: 100%;
     gap: 20px;
 }
 
-/* FILA DE ARRIBA: estrellas + botón */
+/* FILA DE ARRIBA: ESTRELLAS Y BOTÓN */
 .filaSuperior{
     display: flex;
     justify-content: center;
@@ -141,7 +189,7 @@ li{
     width: 100%;
 }
 
-/* CONTENEDOR DE LA PREPARACION */
+/* TITULO DE LA PREPARACION */
 .contenedorPreparacion h3{
     color: #0F766E;
     font-size: 18px;

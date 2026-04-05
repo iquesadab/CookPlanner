@@ -1,15 +1,69 @@
-/* CONTENEDOR AL LADO IZQUIERO */
+/* ESTILOS GENERALES DE LA PÁGINA */
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FAFAF7;
+}
+
+/* CONTENEDOR HEADER */
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    padding: 15px 30px;
+}
+
+/* TÍTULO PRINCIPAL */
+.tituloPrincipal{
+    color: #0F766E;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* LOGO */
+.logo{
+    width: 90px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* ENLACES GENERALES */
+a{
+    text-decoration: none;
+    color: #0F766E;
+}
+
+/* BOTONES GENERALES */
+button{
+    background-color: #0F766E;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+button:hover{
+    background-color: #115E59;
+}
+
+/* CONTENEDOR AL LADO IZQUIERDO */
 .contenedorIzquierdo{
-    display: flex; /* Acomoda elementos en fila */
-    align-items: center; /* Centra verticalmente */
-    gap: 10px; /* Espacio entre elementos */
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* CONTENEDOR AL LADO DERECHO */
 .contenedorDerecho{
-    display: flex; /* Acomoda elementos en fila */
-    align-items: center; /* Centra verticalmente */
-    gap: 10px; /* Espacio entre elementos */
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 /* CONTENEDOR DE TODA LA PAGINA */
@@ -73,8 +127,8 @@
 
 /* INPUT DE BUSQUEDA */
 .barraBusqueda input{
-    flex: 1; /* hace que el input se estire y ocupe el espacio libre */
-    padding: 12px; /* Espacio dentro, lo que van a ingresar en el input */
+    flex: 1;
+    padding: 12px;
     border: 1px solid #bdbdbd;
     font-size: 16px;
 }
@@ -96,7 +150,7 @@
     background-color: #115E59;
 }
 
-/* LINEA SEPARADORA*/
+/* LINEA SEPARADORA */
 .lineaSeparadora{
     width: 100%;
     height: 1px;
@@ -106,9 +160,9 @@
 /* CONTENEDOR DE TODAS LAS TARJETAS */
 .contenedorTarjetas{
     display: flex;
-    flex-wrap: wrap; /* Cuando ya no caben, baja las siguientes a otra fila */
-    gap: 25px; /* Deja espacio entre tarjetas */
-    width: 100%; /* Hace que use bien el espacio debajo de la línea */
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
 }
 
 /* TARJETA DE RECETA */
@@ -132,7 +186,7 @@
 }
 
 /* TITULO DE LA RECETA */
-.tarjetaReceta h2{
+h2{
     margin: 0;
     font-size: 22px;
     color: #2E2E2E;

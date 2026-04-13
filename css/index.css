@@ -96,3 +96,9 @@ a{
     font-size: 15px;
     margin-top: 10px;
 }
+
+/* ERROR */
+.input-error{
+    border: 2px solid red;
+    background-color: #ffe5e5;
+}

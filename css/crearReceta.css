@@ -167,3 +167,9 @@ button:hover{
     border-radius: 6px;
     cursor: pointer;
 }
+
+/* ERROR */
+.input-error{
+    border: 2px solid red;
+    background-color: #ffe5e5;
+}

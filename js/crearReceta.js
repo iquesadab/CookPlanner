@@ -1,4 +1,5 @@
 let btnGuardarReceta = document.getElementById("btnGuardarReceta");
+let btnSubirImagen = document.getElementById("btnSubirImagen");
 
 let txtNombre = document.getElementById("txtNombre");
 let txtIngredientes = document.getElementById("txtIngredientes");
@@ -84,4 +85,15 @@ function validarCamposVacios(){
     return error;
 }
 
+// Función para boton subir Imagen
+function subirImagenRetorno(){
+    Swal.fire({
+            title: "Imagen Guardada",
+            text: "Imagen guardada exitosamente",
+            icon: "success",
+            confirmButtonText: "OK"
+        })
+}
+
 btnGuardarReceta.addEventListener("click", guardarRecetaRetorno);
+btnSubirImagen.addEventListener("click", subirImagenRetorno);

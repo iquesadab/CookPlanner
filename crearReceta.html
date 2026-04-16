@@ -15,25 +15,25 @@
     
     <section class="contenedorCrearReceta">
 
-        <input type="text" class="inputNombreReceta" placeholder="Nombre de la Receta">
+        <input type="text" id="txtNombre" class="inputNombreReceta" placeholder = "Nombre de la Receta">
 
         <div class="lineaSeparadora"></div>
 
         <h2 class="subtituloSeccion">Ingredientes</h2>
-        <input type="text" class="inputIngredientes" placeholder="+ Añadir Ingrediente">
+        <input type="text" id="txtIngredientes" class="inputIngredientes" placeholder = "+ Añadir Ingrediente">
 
         <div class="lineaSeparadora"></div>
 
         <h2 class="subtituloSeccion">Instrucciones</h2>
-        <input class="inputInstrucciones"></input>
+        <input id="txtInstrucciones" class="inputInstrucciones"></input>
 
         <div class="lineaSeparadora"></div>
 
         <div class="filaInferior">
             <div class="bloqueCampo">
-                <label class="labelCampo" for="categoria">Categoria</label>
+                <label class="labelCampo" for="categoria">Categoría</label>
                 <div class="campoLinea">
-                    <select id="categoria" class="selectCampo">
+                    <select id="selectCategoria" class="selectCampo">
                         <option value=""></option>
                         <option>Desayuno</option>
                         <option>Almuerzo</option>
@@ -46,7 +46,7 @@
             <div class="bloqueCampo">
                 <label class="labelCampo" for="presupuesto">Presupuesto por Porción</label>
                 <div class="campoLinea">
-                    <input type="text" id="presupuesto" class="inputPresupuesto">
+                    <input type="number" id="presupuesto" class="inputPresupuesto">
                 </div>
             </div>
         </div>
@@ -54,9 +54,12 @@
         <button type="button" class="botonSubirImagen">Subir Imagen</button>
         
         <div class="filaBotonGuardar">
-            <button type="button" class="botonGuardarReceta">Guardar Receta</button>
+            <button type="button" id="btnGuardarReceta" class="botonGuardarReceta">Guardar Receta</button>
         </div>
     
     </section> 
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/crearReceta.js"></script>
 </body>
 </html>
